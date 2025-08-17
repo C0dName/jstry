@@ -1,0 +1,23 @@
+.calculatorGlobal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.usl {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+}
+.btnBlock {
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
