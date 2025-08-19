@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+#Восполняю пробелы по JS, собираю разные техники в один проект, как шпоргалку
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
