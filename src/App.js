@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import './App.css';
 import Calculator from "./components/calculator/calculator";
 import TodoList from "./components/todolist/TodoList";
+import Sorting from "./components/sorting/Sorting";
 
 
 function App() {
@@ -20,13 +21,17 @@ function App() {
                         onClick={() => setActiveComponent('todo')}>
                     Список задач
                 </button>
-                <button className='btnNav'></button>
+                <button className='btnNav'
+                        onClick={() => setActiveComponent('sorting')}>
+                    Сортировка
+                </button>
                 <button className='btnNav'></button>
             </div>
         </div>
         <div>
             {activeComponent === 'calculator' && <Calculator />}
             {activeComponent === 'todo' && <TodoList />}
+            {activeComponent === 'sorting' && <Sorting />}
         </div>
     </div>
   );

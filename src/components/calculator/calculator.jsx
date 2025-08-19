@@ -20,6 +20,7 @@ function minus () {
 
     return (
         <div className={classes.calculatorGlobal}>
+            <h1>Калькулятор</h1>
             <div className={classes.usl}>
                 <p>{value}</p>
                 <p>{fun}</p>
